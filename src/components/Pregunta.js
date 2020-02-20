@@ -50,7 +50,7 @@ const Pregunta = ( { guardarPresupuesto, guardarRestante, actualizarPregunta }) 
                 <input 
                     type="submit"
                     className="button-primary u-full-width"
-                    value="Definir Presupueso"
+                    value="Definir Presupuesto"
                 />
             </form>
         </Fragment>

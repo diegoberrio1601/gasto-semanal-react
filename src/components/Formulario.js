@@ -46,7 +46,7 @@ const Formulario = ({guardarGasto, guardarCrearGasto}) => {
             { error ? <Error mensaje="Ambos Campos son Obligatorios o Presupuesto Incorrecto"/> : null }
             
             <div className="campo">
-                <label>Nombre Gasto</label>
+                <label>Nombre del Gasto</label>
                 <input
                     type="text"
                     className="u-full-width"
@@ -58,7 +58,7 @@ const Formulario = ({guardarGasto, guardarCrearGasto}) => {
             </div>
 
             <div className="campo">
-                <label>Cantidad Gasto</label>
+                <label>Cantidad del Gasto</label>
                 <input
                     type="number"
                     className="u-full-width"
